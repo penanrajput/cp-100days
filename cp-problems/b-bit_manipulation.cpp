@@ -1,7 +1,10 @@
 #include <iostream>
 #include <bits/stdc++.h>
-
 using namespace std;
+
+
+
+
 
 bool isOdd(int a)
 {
@@ -24,18 +27,7 @@ void setBit(int &n, int i)
 	// (OR)00000101
 
 }
-void clearBit(int & n, int i)
-{
-// 			00000101
-// 			11111011
-// 			--------
-// 	(AND)	00000001
 
-	int mask =  ~(1 << i);
-	n = n & mask;
-
-
-}
 void updateBit(int &n, int i, int v)
 {
 	/*
@@ -67,16 +59,8 @@ int main() {
 	// cout << bin << endl;
 
 
-	/*
-		int n = 5;
-		bitset<8> bin(n);
-		cout << bin << endl;
 
-		clearBit(n, 2);
-		cout << "after removing 2 th bit" << endl;
-		cout << bitset<8>(n) << endl;
 
-	*/
 	/*
 
 		int n = 5;
@@ -92,9 +76,9 @@ int main() {
 		cout << bitset<8>(k) << endl;
 
 	*/
-	int l = 5;
-	updateBit(l, 1, 4);
-	cout << bitset<8>(l) << endl;
+	// int l = 5;
+	// updateBit(l, 1, 4);
+	// cout << bitset<8>(l) << endl;
 
 
 

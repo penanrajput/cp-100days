@@ -28,6 +28,7 @@ a.
 bit observations
 
 b.
+
 isOdd
 getBit
 setBit
@@ -38,11 +39,13 @@ c.
 clearLastIBits
 clearRangeItoJ
 
-d. string-pattern-replace
+d. 
+string-pattern-replace
 clearRangeItoJ
 replaceBits
 
-e. set-bits
+e. 
+set-bits
 countSetBits
 countSetBitsFast
 builtin_popcount
@@ -65,5 +68,9 @@ k. Inclusion exclusion Principle
 l. not so easy-math
 
 m. Problems
-	1. number whether power of 2 
- 	2. 
+
+	1. number whether power of 2  O(1)
+ 	2. find MSB O(1)
+	3. find square of number without * / operator O(logn)
+	4. multiply without / operator
+	

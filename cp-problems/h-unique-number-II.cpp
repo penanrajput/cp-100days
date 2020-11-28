@@ -8,11 +8,15 @@ using namespace std;
 // Output : 4, 6
 // Output Format : smaller unique number first, then larger unique number
 
+// Procedure
+// calculate x ^ y
+// then for finding x, find index of first set bit
+// so x is ^ of all with setbit at that "index"
+// y is y = x ^ y ^ y
+
 
 int findIndexOfFirstSetBit(int n)
 {
-	// cout << n << " " << bitset<8> (n) << endl;
-
 	int ans = 0;
 	while ((n & 1) == 0)
 	{
@@ -22,18 +26,8 @@ int findIndexOfFirstSetBit(int n)
 	return ans;
 }
 
-int main() {
-
-	/*
-		int n;
-		cin	>> n;
-		int arr[n];
-		for (int i = 0; i < n; i++) {
-			cin >> arr[i];
-		}
-	*/
-	int n = 8;
-	int arr[] = {1, 2, 3, 6, 3, 2, 4, 1};
+void solve(int n, int arr[])
+{
 	int res = 0;
 	for (int i = 0; i < n; i++) {
 		res = res ^ arr[i]; // x ^ y
@@ -50,6 +44,22 @@ int main() {
 	}
 	y = x ^ res;
 	cout << min(x, y) << " " << max(x, y) << endl;
+}
+
+int main() {
+
+	/*
+		int n;
+		cin	>> n;
+		int arr[n];
+		for (int i = 0; i < n; i++) {
+			cin >> arr[i];
+		}
+	*/
+	int n = 8;
+	int arr[] = {1, 2, 3, 6, 3, 2, 4, 1};
+
+	solve(n, arr);
 
 
 

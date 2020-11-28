@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// this is my logic 
+// this is my logic
 // int countSetBits(int n)
 // {
 // 	int ans = 0 ;
@@ -34,6 +34,13 @@ int countSetBits(int n)
 // Second Method
 int countSetBitsFast(int n)
 {
+	// it tuns for only O(number of setbits)
+	// if set bits are 5, n = 100000110000001000010000
+	// it will run for only 5 times becoz only 5 1's are there
+
+	// Process
+	//  5   =  101
+	//  4   =  100
 	int ans = 0;
 	while (n > 0)
 	{

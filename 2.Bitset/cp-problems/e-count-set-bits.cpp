@@ -28,6 +28,11 @@ int countSetBits(int n)
 		ans += n & 1;
 		n = n >> 1;
 	}
+	// int ans = 0;
+	// for (; n > 0; n >> 1)
+	// {
+	// 	ans += n & 1;
+	// }
 	return ans;
 }
 

@@ -1,0 +1,696 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"isPo",
+				"isPowerOfTwoFast"
+			],
+			[
+				"is",
+				"isPowerOfTwoCountBitSet"
+			],
+			[
+				"isPow",
+				"isPowerOfTwo"
+			],
+			[
+				"isP",
+				"isPowerOfTwoFast"
+			],
+			[
+				"solve",
+				"solveMazeBackward"
+			],
+			[
+				"n",
+				"n_passenger"
+			],
+			[
+				"clae",
+				"clearRangeItoJ"
+			],
+			[
+				"count",
+				"countSetBits"
+			],
+			[
+				"upda",
+				"updateBit"
+			],
+			[
+				"sta",
+				"Stack"
+			],
+			[
+				"length",
+				"length-1"
+			],
+			[
+				"pem",
+				"permute"
+			],
+			[
+				"Pem",
+				"Permutation"
+			],
+			[
+				"for",
+				"formula"
+			],
+			[
+				"rev",
+				"revSum"
+			],
+			[
+				"rever",
+				"reversed_a"
+			],
+			[
+				"String",
+				"StringBuffer"
+			],
+			[
+				"List",
+				"ListOfRopes"
+			],
+			[
+				"binar",
+				"binaryN"
+			],
+			[
+				"to",
+				"toBinaryString"
+			],
+			[
+				"En",
+				"Entry"
+			],
+			[
+				"inte",
+				"Integer"
+			],
+			[
+				"ret",
+				"returnVector"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sample2.cpp",
+			"settings":
+			{
+				"buffer_size": 874,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "sample2.cpp"
+			}
+		},
+		{
+			"file": "input.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "output.txt",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++ IO CMD.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ IO CMD.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++ IO CMD.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/c++ cp run.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++ cp run.sublime-build",
+					"Run + Commit"
+				]
+			],
+			[
+				"Packages/User/c++ cp run.sublime-build",
+				"Run + Commit"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/c++ cp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++ cp.sublime-build",
+					"Run + Commit"
+				]
+			],
+			[
+				"Packages/User/c++ cp.sublime-build",
+				"Run + Commit"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"previe",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"makro",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"template",
+				"Snippet: template <typename ${1:_InputIter}>"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"setting",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Install Pak",
+				"Package Control: Install Package"
+			],
+			[
+				"Install ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+			"cl",
+			"cl = 50",
+			"cls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems"
+	],
+	"file_history":
+	[
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/input.txt",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/simple3.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/a-bitset-observations.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/output.txt",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/sample.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/e-count-set-bits.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/i-unique-number-III.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/h-unique-number-II.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/tcs-nqt-ninja/factorial.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/tcs-nqt-ninja/area-of-circle.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/tcs-nqt-ninja/gcd.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/tcs-nqt-ninja/lcm.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/README.md",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/m3-findSquareBitwise.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/m4-divide-without-division-operator.cpp",
+		"/D/code/Linux/open this.bash",
+		"/C/Users/shree/Desktop/Template.cpp",
+		"/C/Users/shree/Desktop/Template.txt",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/m2-findMSB.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/m1-number-whether-power-of-2.cpp",
+		"/D/code/Competitive-Programming/Aise Tp programs/sample.cpp",
+		"/D/code/Competitive-Programming/Aise Tp programs/vectorinvecotor.cpp",
+		"/D/code/Competitive-Programming/Aise Tp programs/vvi.cpp",
+		"/D/code/Competitive-Programming/Aise Tp programs/practice.cpp",
+		"/C/Users/shree/AppData/Roaming/Sublime Text 3/Packages/User/C++ IO CMD.sublime-build",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/k-inclusive-exclusive-principle.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/j-power-optimized2.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/sample.c",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cpp-typedef.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/cpp-SetTheory.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect17-bitset-observations.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect17-bit_manipulation-2.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect17-bit_manipulation-2cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/replace-bits-string.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect11-bitwise_operators.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cpp-17-bitset-observations.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect17-bit_manipulation.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/cpp-unique-number-2.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/count-set-bits2.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/count-set-bits.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/cpp-unique-number-1.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-problems/reverse-array.cpp",
+		"/C/Users/shree/AppData/Roaming/Sublime Text 3/Packages/User/c++ cp run.sublime-build",
+		"/C/Users/shree/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/shree/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.user-ca-bundle",
+		"/C/Users/shree/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/shree/AppData/Roaming/Sublime Text 3/Packages/User/c++ cp.sublime-build",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cpp-bitset.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect11-bitwise.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect05-vectors.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect10-map.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect17-count_Set_Bits.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cpp-lect3-lower_bound-upper_bound.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect9-fruntors.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect7-queue.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect6-stack.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect5-vectors.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect4-string.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect4-string-comparator.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect2-sort.cpp",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-lect10-map",
+		"/D/code/Competitive-Programming/Coding Block CP 120+ videos/cp-100days/cp-bitset.cpp",
+		"/C/Users/shree/Desktop/Courses.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_23_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_24_DM.txt",
+		"/D/code/Python/Aise hi Timepass Programs/Main.py",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_26_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_28_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_25_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_22_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_21_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_20_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_31_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_19_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_18_DM.txt",
+		"/D/college/7th Sem/Sahu internship/Penan Rajput/File_17_DM.txt",
+		"/D/college/7th Sem/Jayesh/first.html",
+		"/D/college/7th Sem/Jayesh/Text_as_navigation.html",
+		"/D/college/7th Sem/Jayesh/Inline_Styling.html",
+		"/D/college/7th Sem/Jayesh/Internal_Styling.html",
+		"/E/CP_GFG placement/Programs/DP/CoinChange.java",
+		"/E/CP_GFG placement/Programs/DP/Video list.txt",
+		"/D/college/7th Sem/Quiz/Quiz.java",
+		"/E/CPP_GFG/__MACOSX/Part 1/._.DS_Store",
+		"/D/college/7th Sem/Quiz/Which of the following is the truncation division operator.txt",
+		"/D/college/7th Sem/MentorrBuddy/Java/Silver Level/MyClass.java",
+		"/D/code/Data Structures/hackerRank/Solution.java",
+		"/C/Penan/JPMC-tech-task-2-PY3/0001-Create-Patch-File.patch",
+		"/D/code/Data Structures/AISEHIPRACTICE/Tree/LevelOrderTraversal.java",
+		"/C/Penan/JPMC-tech-task-2-PY3/src/App.tsx",
+		"/C/Penan/JPMC-tech-task-2-PY3/src/Graph.tsx",
+		"/C/Penan/JPMC-tech-task-3-PY3/src/Graph.tsx",
+		"/C/Penan/JPMC-tech-task-3-PY3/src/DataManipulator.ts",
+		"/D/code/Data Structures/LeetCode/TreeInorderTraversal.java",
+		"/D/code/Java/JavaClass/Day 18 Exceptional Handling (remained), Files & Stream/Exceptional Handling/TopDownDFS.java",
+		"/D/code/Java/JavaClass/Day 18 Exceptional Handling (remained), Files & Stream/Exceptional Handling/DivideByZero.java",
+		"/D/code/Java/aise hi timepass programs/DESIGN PATTERN/Editor.java",
+		"/D/code/Competitive-Programming/LeetCode Solutions.txt",
+		"/D/college/6thSEM/MIDSEM/Pract - cp2/Program doing/GCDEuclid.c",
+		"/D/college/6thSEM/MIDSEM/Pract - cp2/Program doing/Test.java",
+		"/D/code/Data Structures/AISEHIPRACTICE/Main.java",
+		"/D/code/Data Structures/ONLINE JUDGE/FloorBinarySearch",
+		"/D/code/Data Structures/ONLINE JUDGE/CODEFORCES_431_D.java",
+		"/D/code/Data Structures/ONLINE JUDGE/before .jpg",
+		"/D/code/Data Structures/AISEHIPRACTICE/DiscreteBinarySearch.java",
+		"/D/code/Data Structures/AISEHIPRACTICE/GreedyMinDistance.java",
+		"/D/code/Data Structures/AISEHIPRACTICE/TestCaseGeneration/BinarySearchMotonic.java",
+		"/D/code/Data Structures/AISEHIPRACTICE/SPOJ/SPOJ_GAMES.java",
+		"/D/code/Data Structures/AISEHIPRACTICE/TestCaseGeneration/GenerateTestCase.java",
+		"/D/code/Data Structures/AISEHIPRACTICE/TestCaseGeneration/test.c",
+		"/D/code/Data Structures/AISEHIPRACTICE/TestCaseGeneration/main.c",
+		"/D/code/Data Structures/AISEHIPRACTICE/Primes.java",
+		"/D/code/Data Structures/AISEHIPRACTICE/SPOJ_ADDREV_note",
+		"/D/code/Data Structures/AISEHIPRACTICE/SPOJ_ADDREV.java",
+		"/D/code/Data Structures/educative/14. Pattern Top _K_ Elements/TopKFrequentNumbers.java",
+		"/D/code/Data Structures/educative/14. Pattern Top _K_ Elements/Notes",
+		"/D/code/Data Structures/educative/14. Pattern Top _K_ Elements/ConnectRopes.java",
+		"/D/code/Data Structures/educative/14. Pattern Top _K_ Elements/KSmallestNumber.java",
+		"/D/code/Data Structures/educative/14. Pattern Top _K_ Elements/KClosestPointsToOrigin.java",
+		"/D/code/Data Structures/educative/14. Pattern Top _K_ Elements/TopKNumbers.java",
+		"/D/code/Data Structures/educative/13. Pattern Bitwise XOR/SPOJ/OLOLO.java",
+		"/D/code/Data Structures/educative/13. Pattern Bitwise XOR/ComplelentOfNumber.java",
+		"/D/code/Data Structures/educative/13. Pattern Bitwise XOR/SingleNumber.java",
+		"/D/code/Data Structures/educative/13. Pattern Bitwise XOR/TwoSingleNumber.java",
+		"/D/code/Data Structures/educative/13. Pattern Bitwise XOR/MissingNumber.java",
+		"/D/code/Data Structures/educative/12. Pattern Modified Binary Search/SearchInASortedInfiniteArray.java",
+		"/D/code/Data Structures/educative/12. Pattern Modified Binary Search/NumberRange.java",
+		"/C/Users/shree/AppData/Roaming/Sublime Text 3/Packages/Java Folder/Run Java In New CMD.sublime-build"
+	],
+	"find":
+	{
+		"height": 43.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 118.4,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Sarah ",
+			"religion "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sample2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sample2.cpp",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "input.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "output.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.745442708333,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 69.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 168.0
+	},
+	"pinned_build_system": "Packages/User/C++ IO CMD.sublime-build",
+	"project": "project-cpp.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

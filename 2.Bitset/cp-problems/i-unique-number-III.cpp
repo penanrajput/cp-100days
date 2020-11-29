@@ -130,9 +130,6 @@ void solve()
 	// int arr[] = {1, 1, 1, 2, 5, 5, 5};
 	int arr[] = {5, 5, 6, 3, 5, 3, 3};
 	cout << findUnique(n , arr);
-
-
-
 }
 
 int main() {
@@ -140,6 +137,6 @@ int main() {
 	// cin >> tc;
 	// FOR(i, 1, tc, 1)
 	solve();
-
-
 }
+
+

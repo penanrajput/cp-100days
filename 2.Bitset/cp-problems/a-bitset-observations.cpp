@@ -5,15 +5,15 @@ using namespace std;
 
 // want n in 8bit binary
 // usange : only to cout
-#define BIN8(n) bitset<8>(n)
+#define BIT8(n) bitset<8>(n)
 
 // want n in 16bit binary
 // usange : only to cout
-#define BIN16(n) bitset<16>(n)
+#define BIT16(n) bitset<16>(n)
 
 // want n in k bits binary
 // usange : only to cout
-#define BIN(n,k) bitset<k>(n)
+#define BIT(n,k) bitset<k>(n)
 
 
 int main()
@@ -63,14 +63,41 @@ int main()
 
 	// want to know last 3 bit
 	// mask =  0...0111
-	int n = 29;
-	cout << BIN8(n) << endl;
-	int mask = ~(~0 << 3);
-	cout << BIN8(mask) << endl;
+	// int n = 29;
+	// cout << BIN8(n) << endl;
+	// int mask = ~(~0 << 3);
+	// cout << BIN8(mask) << endl;
 
-	int ans = mask & n;
-	cout << BIN8(ans) << endl;
+	// int ans = mask & n;
+	// cout << BIN8(ans) << endl;
 
+// Observation 6 :
+// to index of K-th setbit
+// only way is
+	// while (n > 0)
+	// {
+	// 	count ++;
+	// 	n = n >> 1;
+	// }
+	// there's no other way to do it
 
+// Observation
+	// to count the number of bits of number
+	// floor + 1 NOT ceil
 
+	int n = 12; // n = 12 = 1100
+	cin >> n;
+	// cout << floor(log2(n)) + 1 << endl;
+	cout << BIT8(n) << " " << floor(log2(n)) + 1 << endl;
+
+// Observation
+	// int m; // n = 12 = 1100
+	// cin >> m;
+	// floor(log2(n)) + 1 != ceil(log2(n)) // important
+
+	// cout << "num =" << BIT8(n) << ", no of bits : " << (floor(log2(n)) + 1) << endl;
+	// for (int n = 0; n < m; n++)
+	// {
+	// 	cout << "n=" << n << " n=" << BIT8(n) << " floor=" << (floor(log2(n)) + 1) << " ceil=" << ceil(log2(n)) << endl;
+	// }
 }

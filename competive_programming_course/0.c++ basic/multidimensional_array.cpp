@@ -47,43 +47,74 @@ typedef long long int int64;
 typedef unsigned long long int  uint64;
 #define ll long long
 
-int countSetBits(int n)
+
+// MultiDimensional Array
+// Static Array
+// advantage : predefined array
+// use case : to declare and define predefined value set,
+// so that u can use it later directly
+void static_array()
 {
-	int ans = 0;
-	while (n > 0)
-	{
-		n = n & (n - 1);
-		ans++;
-	}
-	return ans;
+
+  int arr[2][5] = { {1, 2, 4, 5, 10}, {4, 2, 1, 3, 6}}; // valid
+  // int *arr[2] = { {1, 2, 4, 5, 10}, {4, 2, 1, 3, 6}}; // invalid
+  FOR(i, 0, 2, 1)
+  {
+    FOR(j, 0, 5, 1)
+    {
+      cout << arr[i][j] << " " ;
+    }
+    cout << endl;
+  }
+
 }
 
-void countSetBitsInRange(int start, int end)
+void dynamic_array()
 {
-	int count = 0;
-	FOR(i, start, end + 1, 1)
-	{
-		count += countSetBits(i);
-	}
-	cout << count << endl;
+  int *arr[3];  // valid, best in market
+  for (int i = 0; i < 3; i++)
+  {
+    arr[i] = new int[5] {i + 3, i + 4, i + 2, i + 6, i + 10};
+  }
+  for (int i = 0; i < 3; i++)
+  {
+    FOR(j, 0, 5, 1)
+    {
+      cout << arr[i][j] << " ";
+    }
+    cout << endl;
+  }
 }
 
 
-void solve()
+void dynamic_array2()
 {
+  int ** arr;
+  FOR(i, 0, 2, 1)
+  {
+    arr [i] = new int [5] {i + 3, i + 4, i + 2, i + 6, i + 10};
+  }
 
-	int s, e;
-	s = 10, e = 20;
-	countSetBitsInRange(s, e);
+
+  FOR(i, 0, 2, 1)
+  {
+    FOR(j, 0, 5, 1)
+    {
+      cout << arr[i][j] << " ";
+    }
+    cout << endl;
+  }
 }
 
 int main() {
-	// int tc;
-	// cin >> tc;
-	// FOR(i, 1, tc, 1)
-	solve();
+  // int tc;
+  // cin >> tc;
+  // FOR(i, 1, tc, 1)
+  // solve();
+
+  // static_array();
+  // dynamic_array();
+  dynamic_array2();
 
 
 }
-
-

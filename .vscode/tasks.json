@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++.exe build active file",
+			"command": "g++.exe",
+			"args": [
+				"-g",
+				"${relativeFile}",
+				"-o",
+				"${fileBasenameNoExtension}.exe",
+				"&&",
+				"start",
+				"cmd",
+				"/c",
+				"${fileBasenameNoExtension} & echo. & echo. & pause"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

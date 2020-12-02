@@ -2,10 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
-
-int main() {
+int main()
+{
 
     // bitwise Operatios :
     // Bitwise and & ,
@@ -37,10 +35,9 @@ int main() {
         cout<< "xorShift    : " << (a^b) << " " << xorOp << endl;
     */
 
-
-    cout << bitset<8> (a << 3) << endl;
+    cout << bitset<8>(a << 3) << endl;
     int allOnes = pow(2, 3) - 1;
 
-    cout <<  bitset<8> (a << 3 | allOnes) << endl;
-    cout <<  bitset<8> (a << 3 ^ allOnes) << endl;
+    cout << bitset<8>(a << 3 | allOnes) << endl;
+    cout << bitset<8>(a << 3 ^ allOnes) << endl;
 }

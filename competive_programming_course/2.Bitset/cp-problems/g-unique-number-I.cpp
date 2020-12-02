@@ -3,6 +3,7 @@
 using namespace std;
 
 // Unique Number 1
+// Given a set of numbers where all elements occur even number of times except one number, find the odd occurring number
 int main() {
 
 	int n;

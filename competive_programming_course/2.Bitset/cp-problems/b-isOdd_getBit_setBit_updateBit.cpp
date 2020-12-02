@@ -2,9 +2,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// isOdd
+// getBit
+// setBit
+// updateBit
 
 
-
+isOdd_getBit_setBit_updateBit
 
 bool isOdd(int a)
 {
@@ -18,14 +22,13 @@ int getBit(int n, int i)
 
 void setBit(int &n, int i)
 {
-	int mask =  (1 << i);
+	int mask = (1 << i);
 	n = n | mask;
 
 	// 00000001
 	// 00000100
 	// ---------- -
 	// (OR)00000101
-
 }
 
 void updateBit(int &n, int i, int v)
@@ -40,7 +43,8 @@ void updateBit(int &n, int i, int v)
 	n = n | mask;
 }
 
-int main() {
+int main()
+{
 	/*
 	// ODD EVEN
 		// cout<<isOdd(6)<<endl;
@@ -49,7 +53,6 @@ int main() {
 
 	// cout << bitset<8> (5);
 
-
 	// cout << getBit(5, 2) << endl; // 5 101
 
 	// int n = 5;
@@ -57,9 +60,6 @@ int main() {
 
 	// bitset<8> bin(n);
 	// cout << bin << endl;
-
-
-
 
 	/*
 
@@ -79,9 +79,4 @@ int main() {
 	// int l = 5;
 	// updateBit(l, 1, 4);
 	// cout << bitset<8>(l) << endl;
-
-
-
-
-
 }

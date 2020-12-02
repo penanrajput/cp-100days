@@ -47,6 +47,7 @@ typedef long long int int64;
 typedef unsigned long long int  uint64;
 #define ll long long
 
+
 int gcd(int a, int b)
 {
 	if (b == 0) return a;

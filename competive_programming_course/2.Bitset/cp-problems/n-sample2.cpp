@@ -25,7 +25,7 @@ using namespace std;
 // 8 = 1000 ans = 4 - 1 = 3
 // 7 = 111 ans = 3 - 3 = 0
 
-ll count(ll n)//to count number of zeroes in n
+ll countZeros(ll n)//to count number of zeroes in n
 {
 	ll k = n;
 	ll p = __builtin_popcount(n);

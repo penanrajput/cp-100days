@@ -1,7 +1,4 @@
-/*
-Author : Penan Rajput
-© Copyright 2020
-*/
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -50,6 +47,7 @@ typedef unsigned long long int  uint64;
 void solve()
 {
 
+
 }
 
 int main() {
@@ -57,6 +55,5 @@ int main() {
 	// cin >> tc;
 	// FOR(i, 1, tc, 1)
 	solve();
-
-
 }
+

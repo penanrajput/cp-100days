@@ -10,14 +10,12 @@ to_ulong()
 
 */
 
-
-
 // integer(base10) into bitset
 // used to just output purpose
 int itob_i(int n)
 {
 	/* integer to binary */
-	bitset<16> result (n);
+	bitset<16> result(n);
 	// return result;
 	return 0;
 }
@@ -27,13 +25,14 @@ int itob_i(int n)
 string itob_str(int n)
 {
 	/* integer to string*/
-	return bitset<8> (n).to_string();;
+	return bitset<8>(n).to_string();
+	;
 }
-
 
 // string bitset<8> (int).to_string()
 
-int main() {
+int main()
+{
 
 	//
 	//  cout << itob(653);
@@ -54,16 +53,4 @@ int main() {
 		int num = atoi(str);
 		cout << "the num : " << num << endl;
 	*/
-
-	/*
-		// stoi ()
-		string str ;
-		cin >> str;
-		// cout << stoi(str);
-		int num ;
-		num = stoi(str);
-		cout << num << endl;
-		cout << num * 2 << endl;
-	*/
-
 }

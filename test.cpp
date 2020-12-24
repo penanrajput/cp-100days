@@ -1,13 +1,18 @@
-#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-
-#define BIT8(n) bitset<8>(n)
-#define BIT16(n) bitset<16>(n)
-#define BIT(n, k) bitset<k>(n)
 #define ll long long
 
 int main()
 {
-    cout << "Hello World in Test file";
+    queue<int> q;
+    q.push(40);
+    q.push(30);
+    q.push(20);
+    queue<int> q1 = q;
+    q1.push(90);
+    cout << q.back() << endl;
+    cout << q1.back() << endl;
+
+    cout << q.front() << endl;
+    cout << q1.front() << endl;
 }

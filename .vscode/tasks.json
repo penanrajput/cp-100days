@@ -1,31 +1,58 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "shell",
-			"label": "C/C++: g++.exe build active file IN NEW CMD",
-			"command": "g++.exe",
-			"args": [
-				"-g",
-				"${relativeFile}",
-				"-o",
-				"${fileBasenameNoExtension}.exe",
-				"&&",
-				"start",
-				"cmd",
-				"/c",
-				"${fileBasenameNoExtension} & echo. & echo. & pause"
-			],
-			"options": {
-				"cwd": "${workspaceFolder}"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		}
-	]
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:\\MinGW\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "g++ build & run active file",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:\\MinGW\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe build active file by PENAN",
+            "command": "g++.exe",
+            "args": [
+                "-g",
+                "${relativeFile}",
+                "-o",
+                "${fileBasenameNoExtension}.exe",
+                "&&",
+                "start",
+                "cmd",
+                "/c",
+                "${fileBasenameNoExtension} & echo. & echo. & pause"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+    ],
+    "version": "2.0.0"
 }
